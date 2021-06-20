@@ -34,7 +34,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="..\dropperV2\wininet\syscallsstubs.asm">
+    <MASM Include="syscallsstubs.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

@@ -150,9 +150,8 @@
     <ClInclude Include="syscalls.h" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="..\dropperV2\wininet\syscallsstubs.asm">
+    <MASM Include="syscallsstubs.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <FileType>Document</FileType>
     </MASM>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

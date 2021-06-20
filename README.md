@@ -1,13 +1,13 @@
 ## ColonialPipeline-PdfDownloadRunAesMalware
 A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Part 1: Download PDF, Strip Header & Footer, AES Decrypt Payload, Execute shellcode
-1. Download PDF file from internet using WinInet library
-  - Supports HTTPS
-  - Supports DropBox API download (like in original) via adding the Bearer Token to the headers of the request
-  - Supports Domain Fronting by hosting malicious PDF file on CDN, sending request to shared site, and modifying the Host header to the target site 
-2. Strip the 10 byte PDF Header from the malicious AES Encrypted PDF
-3. Strip the 7 byte PDF Footer from the malicious AES Encrypted PDF
-4. AES Decrypt the payload using the static AES & IV - via Tiny AES code 
-5. Run the payload within the processes memory space using Syscalls provided by SysWhisper V2 project 
+##### 1. Download PDF file from internet using WinInet library
+  ###### - Supports HTTPS
+  ###### - Supports DropBox API download (like in original) via adding the Bearer Token to the headers of the request
+  ###### - Supports Domain Fronting by hosting malicious PDF file on CDN, sending request to shared site, and modifying the Host header to the target site 
+##### 2. Strip the 10 byte PDF Header from the malicious AES Encrypted PDF
+##### 3. Strip the 7 byte PDF Footer from the malicious AES Encrypted PDF
+##### 4. AES Decrypt the payload using the static AES & IV - via Tiny AES code 
+##### 5. Run the payload within the processes memory space using Syscalls provided by SysWhisper V2 project 
 ### Microsofts Malware Analysis
 + https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/
 ### CREDIT

@@ -9,6 +9,7 @@ A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Pa
 ##### 4. AES Decrypt the payload using the static AES & IV - via Tiny AES code 
 ##### 5. Run the payload within the processes memory space using Syscalls provided by SysWhisper V2 project 
 ### Microsofts Malware Analysis
+![](NOBELIUM-Fig14.png)
 + https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/
 ### CREDIT
 + reenz0h from Sektor7.net @SEKTOR7net - https://institute.sektor7.net/ courses got me hooked! Thank you sensai!

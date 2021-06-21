@@ -23,4 +23,5 @@ A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Pa
 + Tiny AES for an epic open-source AES project!
   + https://github.com/kokke/tiny-AES-c
 + Joseph Kingstone for getting me hooked on red teaming! - https://www.linkedin.com/in/joseph-kingstone-755b7099/
++ John Cartrett for supporting me in advancing my red team skills! - https://www.linkedin.com/in/john-cartrett/
 + John Askew for getting me deep into crypto and showing me how to use the AES project - https://www.linkedin.com/in/johnjaskew/

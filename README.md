@@ -1,4 +1,4 @@
-## ColonialPipeline-PdfDownloadRunAesMalware
+## Nobelium PdfDownloadRunAesMalware
 A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Part 1: PDF2Pwn
 ##### 1. Download PDF file from internet using WinInet library
   ###### - Supports HTTPS

@@ -12,7 +12,7 @@ A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Pa
 ![](NOBELIUM-Fig14.png)
 + https://www.microsoft.com/security/blog/2021/05/28/breaking-down-nobeliums-latest-early-stage-toolset/
 ### CREDIT
-+ reenz0h from Sektor7.net @SEKTOR7net - https://institute.sektor7.net/ courses got me hooked! Thank you sensai!
++ reenz0h from Sektor7.net @SEKTOR7net - https://institute.sektor7.net/ courses got me hooked! Thank you sensei!
   + "GUI Trick" taught by reenz0h in 'RED TEAM Operator: Malware Development Essentials Course' is used to hide the console window on execution
   + Avoided using reenz0h's code for AES in proof of concept, but if you want to learn about how to incorporate AES Encryption/Decryption way better than what is done here, defiantley sign up for his RTO Malware dev essentials course. Does an epic job covering XOR & AES, function obfuscation, and more
 + @Jackson_T - Epic Syswhispers project! Thank you for this amazing project!
